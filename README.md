@@ -6,10 +6,9 @@ CONTENT
 01 ABOUT OBJECT TRACKING
 02 GOAL AND OBJECTIVES
 03 SOURCES
-04 EXISTING CODES
-05 REPRODUCTION
+04 CODE EXECUTION
+05 RESULT
 06 EXPLANATION
-07 RESULT
 
 ABOUT OBJECT TRACKING
 
@@ -20,12 +19,13 @@ At the same time, the appearance model is responsible for determining if the obj
 GOALS AND OBJECTIVES
 
 Objective n° 1
-Using the existing code learn each process and apply it in real life.
+Using the existing models and learn each process and find the difference.
+
 Objective n° 2
-Reproduce a new idea and add or remove the codes from the existing sources.
-Apply them and analyze the differences and work on the mistakes
+Divide the tracking models according to their use cases.
+
 Objective n° 3
-Maximize the possibility of success rate of the project by using open sources.
+Choose the better version and show the results.
 
 SOURCES
 
@@ -34,12 +34,4 @@ object tracking really is and how actually it operates.
 Then, learn each function of the code to apply it in our future project
 Existing Platforms I have used various algorithms such as KCF, CSRT, Boosting and etc, to better understand what do
 algorithms do.
-But among those platforms there was not a better and suitable algorithm for our purpose. So I used
-different algorithm that is well known and modern
-
-REPRODUCTION
-
-I used Yolo7 algorithm to create object detection with naming each detected object and tracking them.
-Moreover there are percentages for each object to how close they are for actual objects.
-Afte running the code, it will take the pricture or the video and it will detect each object and (track them if it’s video)
-name them one by one.
+But among those platforms I chosed the KCF as much more faster and qualitative model to use in comparison to other 4 models.
